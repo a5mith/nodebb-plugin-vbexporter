@@ -1,0 +1,26 @@
+{
+   "name":"nodebb-plugin-vbexporter",
+   "description":"Export vBulletin data for import into NodeBB using nodebb-plugin-import",
+   "version":"0.0.1",
+   "homepage":"http://github.com/MakerStudios/nodebb-plugin-vbexporter",
+   "repository":"git://github.com/MakerStudios/nodebb-plugin-vbexporter.git",
+   "author":"Mike Edwards <mike.edwards@makerstudios.com> (http://makerstudios.com/)",
+   "main":"./lib/export.js",
+   
+   "dependencies":{
+      "async": "0.2.10",
+      "mkdirp": "0.3.5",
+      "mysql": "2.0.1",
+      "nconf": "0.6.9",
+      "rimraf": "2.2.6"
+   },
+   "engines":{
+      "node":">= 0.8.0"
+   },
+   "licenses":[
+      {
+         "type":"MIT",
+         "url":"http://github.com/MakerStudios/nodebb-plugin-vbexporter/raw/master/LICENSE"
+      }
+   ]
+}
